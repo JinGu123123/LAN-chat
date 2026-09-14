@@ -1,5 +1,9 @@
 # LAN-chat
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
 > 一个基于 Python 的局域网聊天系统，支持多客户端实时文本通信。
 
 ## ✨ 功能特点
@@ -28,11 +32,15 @@
 
 1. 启动服务端（在一台电脑上执行）：
 
+   ```bash
    python server.py
+   ```
 
 2. 启动客户端（在另一台电脑上执行，或同一台电脑另开终端）：
 
+   ```bash
    python client.py
+   ```
 
 3. 开始聊天：在客户端输入文本消息，按回车发送。
 
